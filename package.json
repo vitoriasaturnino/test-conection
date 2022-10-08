@@ -1,0 +1,29 @@
+{
+  "name": "aula_configs",
+  "version": "1.0.0",
+  "description": "aula configurações",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitoriasaturnino/aula_configs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitoriasaturnino/aula_configs/issues"
+  },
+  "homepage": "https://github.com/vitoriasaturnino/aula_configs#readme",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "sequelize": "^6.20.1"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
